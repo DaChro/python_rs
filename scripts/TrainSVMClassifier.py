@@ -34,6 +34,6 @@ TrainImagesClassifier.SetParameterString("io.out", "model.txt")
 # Execute the application and write the output to current folder
 TrainImagesClassifier.ExecuteAndWriteOutput()
 
-print "Finished"
+print("Finished")
 
 
