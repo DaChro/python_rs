@@ -26,5 +26,5 @@ ImageClassifier.SetParameterString("out", argv[1][:-4] + "SVM.tif")
 # Execute the application and write the output to current folder
 ImageClassifier.ExecuteAndWriteOutput()
 
-print "Finished"
+print("Finished")
 

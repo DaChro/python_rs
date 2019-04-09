@@ -28,4 +28,4 @@ BandMath.SetParameterString("exp", "(im1b4 - im1b3) / (im1b4 + im1b3)")
 # Execute the application and write the output to current folder
 BandMath.ExecuteAndWriteOutput()
 
-print "Finished"
+print("Finished")

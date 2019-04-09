@@ -46,4 +46,4 @@ else:
 # Execute the application and write the output to current folder
 EdgeExtraction.ExecuteAndWriteOutput()
 
-print "Finished"
+print("Finished")

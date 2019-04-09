@@ -18,7 +18,7 @@ visred = dataSource.GetRasterBand(3).ReadAsArray(0,0,dataSource.RasterXSize, dat
 nir = dataSource.GetRasterBand(4).ReadAsArray(0,0,dataSource.RasterXSize, dataSource.RasterYSize)
 
 #print the type of the object
-print 'this is an' ,type(visred).__name__
+print('this is an' ,type(visred).__name__)
 
 # Write the expression to compute ndvi
 # make sure the data is interpretated as float, so that the output is also float 

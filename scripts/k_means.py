@@ -25,7 +25,7 @@ kmeans.SetParameterString("out", argv[1][:-4]+ "_kmeans" + ".tif")
 
 kmeans.ExecuteAndWriteOutput()
 
-print "Finished"
+print("Finished")
 
 
 

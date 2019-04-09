@@ -2,7 +2,7 @@
 import otbApplication
 
 # otbApplication.Registry shows available applications
-print "Available applications: "
-print str( otbApplication.Registry.GetAvailableApplications() )
+print("Available applications: ")
+print(str( otbApplication.Registry.GetAvailableApplications() ))
 
 
